@@ -1,0 +1,4 @@
+Número total de palavras: 43
+Número total de linhas: 3
+Número médio de palavras por linha: 14.3333
+Palavra mais frequente: e (ocorrências: 2)
