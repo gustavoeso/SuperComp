@@ -1,0 +1,2 @@
+Gprof
+A tarefa levou 1.49521 segundos para ser executada

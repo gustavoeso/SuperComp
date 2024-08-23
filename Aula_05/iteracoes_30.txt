@@ -1,0 +1,11 @@
+Sem otimização
+A tarefa levou 1.69491 segundos para ser executada
+ 
+Otimização básica
+A tarefa levou 0.453122 segundos para ser executada
+ 
+Otimização padrão
+A tarefa levou 0.350733 segundos para ser executada
+ 
+Otimização avançada
+A tarefa levou 0.158565 segundos para ser executada
