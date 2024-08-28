@@ -1,0 +1,17 @@
+problema da mochila
+ 
+entrada 1
+Valor máximo possível: 266
+ 
+entrada 2
+Valor máximo possível: 156
+ 
+entrada 3
+Valor máximo possível: 236
+ 
+entrada 4
+Valor máximo possível: 55
+ 
+30 linhas
+Valor máximo possível: 77
+Tempo de execução para a multiplicação de matrizes em C++: 0.122464 segundos

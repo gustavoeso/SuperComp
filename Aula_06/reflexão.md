@@ -1,0 +1,1 @@
+Ao executar o arquivo com 30 e 50 linha, parece que eles rodaram rapido, porem ao rodar com 100 linhas, ele não foi capaz de finalizar em menos de 10 minutos. Isso se deve a complexidade de O(2^n) fazendo com que ele cresce exponencialmente.
