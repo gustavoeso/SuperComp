@@ -1,0 +1,22 @@
+default took 0.000205924 seconds.
+schedule(static) took 3.0743e-06 seconds.
+schedule(dynamic) took 6.89551e-06 seconds.
+schedule(guided) took 4.73764e-06 seconds.
+schedule(auto) took 3.28384e-06 seconds.
+default took 2.74461e-06 seconds.
+schedule(static) took 2.69711e-06 seconds.
+schedule(dynamic) took 5.0785e-06 seconds.
+schedule(guided) took 3.93763e-06 seconds.
+schedule(auto) took 2.8545e-06 seconds.
+default took 2.82377e-06 seconds.
+schedule(static) took 2.63844e-06 seconds.
+schedule(dynamic) took 8.14162e-06 seconds.
+schedule(guided) took 3.49712e-06 seconds.
+schedule(auto) took 2.81632e-06 seconds.
+
+Average execution times (3 runs):
+default:               7.04974e-05 seconds.
+schedule(static):      2.80328e-06 seconds.
+schedule(dynamic):     6.70521e-06 seconds.
+schedule(guided):      4.05746e-06 seconds.
+schedule(auto):        2.98489e-06 seconds.

@@ -1,0 +1,1 @@
+Tempo com pré-alocação de memória: 0.000147307 segundos.

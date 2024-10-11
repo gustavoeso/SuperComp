@@ -1,0 +1,1 @@
+Tempo com omp critical: 0.000911481 segundos.
