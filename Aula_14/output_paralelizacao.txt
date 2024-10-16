@@ -1,0 +1,2 @@
+Estimativa de Pi (paralelo): 3.13784
+Tempo de execução (paralelo): 0.0148443 segundos
