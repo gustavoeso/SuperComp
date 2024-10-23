@@ -23,3 +23,9 @@ mpirun -np 4 ./ex3
 echo " "
 echo "Exercicio 4"
 mpirun -np 4 ./ex4
+echo " "
+echo "Exercicio 5"
+mpirun -np 4 ./ex5
+echo " "
+echo "Exercicio 6"
+mpirun -np 4 ./ex6

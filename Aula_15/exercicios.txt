@@ -1,33 +1,54 @@
 Exericio 1
-Processo 1 recebeu: Ola do processo 0
 Processo 0 recebeu: Oi do processo 1
+Processo 1 recebeu: Ola do processo 0
  
 Exercicio 2 com 4 processos
-Processo 0 enviou: Mensagem do processo 0 para o processo 1
-Processo 0 recebeu de volta: Mensagem do processo 0 do processo 3
 Processo 1 recebeu: Mensagem do processo 0 do processo 0
 Processo 1 enviou: Mensagem do processo 0 para o processo 2
 Processo 2 recebeu: Mensagem do processo 0 do processo 1
 Processo 2 enviou: Mensagem do processo 0 para o processo 3
 Processo 3 recebeu: Mensagem do processo 0 do processo 2
 Processo 3 enviou: Mensagem do processo 0 para o processo 0
+Processo 0 enviou: Mensagem do processo 0 para o processo 1
+Processo 0 recebeu de volta: Mensagem do processo 0 do processo 3
  
 Exercicio 2 com 2 processos
 Este programa requer mais de 2 processos.
  
 Exercicio 3
-Processo 0 enviou: "Mensagem iniciada no processo 0" para o processo 1
 Processo 1 recebeu: "Mensagem iniciada no processo 0" do processo 0
 Processo 1 enviou: "Mensagem iniciada no processo 0" para o processo 2
-Processo 2 recebeu: "Mensagem iniciada no processo 0" do processo 1
-Processo 2 enviou: "Mensagem iniciada no processo 0" para o processo 3
+Processo 0 enviou: "Mensagem iniciada no processo 0" para o processo 1
 Processo 3 recebeu: "Mensagem iniciada no processo 0" do processo 2
 Processo 3 (último) recebeu a mensagem final: "Mensagem iniciada no processo 0"
+Processo 2 recebeu: "Mensagem iniciada no processo 0" do processo 1
+Processo 2 enviou: "Mensagem iniciada no processo 0" para o processo 3
  
 Exercicio 4
 Processo 0 enviou: "Mensagem exclusiva para o processo 1" para o processo 1
 Processo 0 enviou: "Mensagem exclusiva para o processo 2" para o processo 2
 Processo 0 enviou: "Mensagem exclusiva para o processo 3" para o processo 3
 Processo 1 recebeu: "Mensagem exclusiva para o processo 1" do processo 0
-Processo 2 recebeu: "Mensagem exclusiva para o processo 2" do processo 0
 Processo 3 recebeu: "Mensagem exclusiva para o processo 3" do processo 0
+Processo 2 recebeu: "Mensagem exclusiva para o processo 2" do processo 0
+ 
+Exercicio 5
+Processo 0 iniciou com valor: 1
+Processo 1 recebeu soma parcial: 1 e somou seu valor 2 para obter: 3
+Processo 2 recebeu soma parcial: 3 e somou seu valor 3 para obter: 6
+Processo 3 recebeu soma parcial: 6 e somou seu valor 4 para obter: 10
+Processo 3 (último) exibe a soma total: 10
+ 
+Exercicio 6
+Processo 0 enviou: "Mensagem do processo 0 para o processo 1" para o processo 1
+Processo 0 recebeu: "Resposta do processo 1 para o processo 0" do processo 1
+Processo 0 enviou: "Mensagem do processo 0 para o processo 2" para o processo 2
+Processo 1 recebeu: "Mensagem do processo 0 para o processo 1" do processo 0
+Processo 1 enviou: "Resposta do processo 1 para o processo 0" para o processo 0
+Processo 2 recebeu: "Mensagem do processo 0 para o processo 2" do processo 0
+Processo 2 enviou: "Resposta do processo 2 para o processo 0" para o processo 0
+Processo 0 recebeu: "Resposta do processo 2 para o processo 0" do processo 2
+Processo 0 enviou: "Mensagem do processo 0 para o processo 3" para o processo 3
+Processo 3 recebeu: "Mensagem do processo 0 para o processo 3" do processo 0
+Processo 3 enviou: "Resposta do processo 3 para o processo 0" para o processo 0
+Processo 0 recebeu: "Resposta do processo 3 para o processo 0" do processo 3
