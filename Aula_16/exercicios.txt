@@ -1,0 +1,30 @@
+Exericio 1
+Array inicial no processo raiz: 99 89 78 67 70 84 33 29 23 70 73 20 13 53 46 83 
+Processo 0 calculou média local: 68.625
+Média global calculada no processo raiz: 58.125
+Processo 1 calculou média local: 47.625
+ 
+Exercicio 2 
+Processo raiz definindo número de iterações para: 100000
+Processo 0 completou o cálculo com resultado: 137.934
+Processo 1 completou o cálculo com resultado: 137.934
+Processo 3 completou o cálculo com resultado: 137.934
+Processo 2 completou o cálculo com resultado: 137.934
+ 
+Exercicio 3
+Array inicial no processo raiz: 77 95 35 12 42 79 42 81 15 33 35 86 33 72 2 74 
+Valor máximo calculado no processo raiz: 95
+Processo 0 normalizou seu segmento do array.
+Processo 1 normalizou seu segmento do array.
+Processo 2 normalizou seu segmento do array.
+Processo 3 normalizou seu segmento do array.
+Array normalizado no processo raiz: 0.810526 1 0.368421 0.126316 0.442105 0.831579 0.442105 0.852632 0.157895 0.347368 0.368421 0.905263 0.347368 0.757895 0.0210526 0.778947 
+ 
+Exercicio 4
+Array inicial no processo raiz: 95 88 89 8 89 82 36 99 3 38 43 81 39 77 57 72 
+Processo 0 calculou média local: 70 e variância local: 1288.5
+Processo 1 calculou média local: 76.5 e variância local: 583.25
+Processo 2 calculou média local: 41.25 e variância local: 764.188
+Processo 3 calculou média local: 61.25 e variância local: 219.188
+Média global: 62.25
+Desvio padrão global: 26.7167
