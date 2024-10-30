@@ -1,3 +1,4 @@
 Exericio 1
 Clique máxima encontrada: 12 13 14 15 
-Tempo total de execução: 0 segundos
+Tamanho da clique máxima: 4
+Tempo total de execução: 0.000052 segundos

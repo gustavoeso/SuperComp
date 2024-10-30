@@ -4,6 +4,7 @@
 #include <chrono>
 #include <string>
 #include <fstream> // Inclui fstream para uso do ifstream
+#include <iomanip> // Para manipular casas decimais
 
 // Função para ler o grafo a partir do arquivo de entrada
 std::vector<std::vector<int>> LerGrafo(const std::string& nomeArquivo, int& numVertices) {
@@ -34,7 +35,6 @@ std::vector<std::vector<int>> LerGrafo(const std::string& nomeArquivo, int& numV
 // Função recursiva para explorar todas as combinações e encontrar a clique máxima
 void BuscaCliqueMaxima(const std::vector<std::vector<int>>& grafo, std::vector<int>& atualClique, 
                        std::vector<int>& cliqueMaxima, int numVertices, int vInicial) {
-    // Se o clique atual é maior que a maior clique encontrada, atualizamos a clique máxima
     if (atualClique.size() > cliqueMaxima.size()) {
         cliqueMaxima = atualClique;
     }
@@ -42,18 +42,17 @@ void BuscaCliqueMaxima(const std::vector<std::vector<int>>& grafo, std::vector<i
     for (int v = vInicial; v < numVertices; ++v) {
         bool adjacenteATodos = true;
 
-        // Verifica se o vértice v é adjacente a todos os vértices do clique atual
         for (int u : atualClique) {
-            if (grafo[u][v] == 0) { // Se não for adjacente, quebra
+            if (grafo[u][v] == 0) { 
                 adjacenteATodos = false;
                 break;
             }
         }
 
         if (adjacenteATodos) {
-            atualClique.push_back(v); // Adiciona o vértice ao clique atual
+            atualClique.push_back(v); 
             BuscaCliqueMaxima(grafo, atualClique, cliqueMaxima, numVertices, v + 1);
-            atualClique.pop_back(); // Retira o vértice para explorar novas combinações
+            atualClique.pop_back();
         }
     }
 }
@@ -78,16 +77,19 @@ int main() {
     // Encontra a clique máxima usando a abordagem exaustiva recursiva
     std::vector<int> cliqueMaxima = EncontrarCliqueMaxima(grafo, numVertices);
     
-    auto duracaoTotal = std::chrono::duration_cast<std::chrono::seconds>(
+    auto duracaoTotal = std::chrono::duration_cast<std::chrono::duration<double>>(
                             std::chrono::high_resolution_clock::now() - inicioTotal).count();
 
     // Exibe o resultado no terminal
     std::cout << "Clique máxima encontrada: ";
     for (int v : cliqueMaxima) {
-        std::cout << v + 1 << " "; // Exibe vértices da clique máxima
+        std::cout << v + 1 << " "; 
     }
     std::cout << std::endl;
 
+    std::cout << "Tamanho da clique máxima: " << cliqueMaxima.size() << std::endl;
+
+    std::cout << std::fixed << std::setprecision(6);
     std::cout << "Tempo total de execução: " << duracaoTotal << " segundos" << std::endl;
 
     return 0;

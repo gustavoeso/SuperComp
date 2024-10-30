@@ -8,5 +8,5 @@
 #SBATCH --partition=espec
 
 
-echo "Exericio 1"
+echo "Abordagem Exaustiva"
 ./exaustivo
