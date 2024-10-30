@@ -67,7 +67,7 @@ std::vector<int> EncontrarCliqueMaxima(const std::vector<std::vector<int>>& graf
 
 int main() {
     int numVertices;
-    std::string nomeArquivo = "grafo.txt";
+    std::string nomeArquivo = "grafos/grafo50.txt";
     
     // Lê o grafo do arquivo
     std::vector<std::vector<int>> grafo = LerGrafo(nomeArquivo, numVertices);
