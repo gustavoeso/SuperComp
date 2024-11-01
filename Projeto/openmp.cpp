@@ -6,45 +6,37 @@
 #include <omp.h>
 #include <chrono>
 
-std::vector<std::vector<int>> carregarGrafo(const std::string &nomeArquivo) {
-    std::ifstream arquivo(nomeArquivo);
+std::vector<std::vector<int>> carregarGrafo(const std::string &arquivo) {
+    std::ifstream inputFile(arquivo);
     std::vector<std::vector<int>> grafo;
     std::string linha;
-    int linhaIndex = 0;
-
-    while (std::getline(arquivo, linha)) {
+    while (getline(inputFile, linha)) {
         std::istringstream iss(linha);
-        int numero;
-        std::vector<int> vizinhos;
-
-        while (iss >> numero) {
-            vizinhos.push_back(numero);
+        int v1, v2;
+        iss >> v1 >> v2;
+        while (grafo.size() <= std::max(v1, v2)) {
+            grafo.emplace_back();
         }
-        grafo.push_back(vizinhos);
-        linhaIndex++;
+        grafo[v1].push_back(v2);
+        grafo[v2].push_back(v1);
     }
-
     return grafo;
 }
 
-std::vector<int> encontrarCliqueDoNo(int no, const std::vector<std::vector<int>> &grafo) {
+std::vector<int> encontrarCliqueDoNo(int no, const std::vector<std::vector<int>>& grafo) {
     std::vector<int> clique = {no};
-
     for (int vizinho : grafo[no]) {
-        bool completo = true;
-
+        bool fazParteClique = true;
         for (int membro : clique) {
             if (std::find(grafo[membro].begin(), grafo[membro].end(), vizinho) == grafo[membro].end()) {
-                completo = false;
+                fazParteClique = false;
                 break;
             }
         }
-
-        if (completo) {
+        if (fazParteClique) {
             clique.push_back(vizinho);
         }
     }
-
     return clique;
 }
 
@@ -70,19 +62,33 @@ std::vector<int> encontrarCliqueMaxima(const std::vector<std::vector<int>> &graf
 }
 
 int main() {
-    std::string nomeArquivo = "grafos/grafo50.txt"; // Altere para o arquivo desejado
-    auto grafo = carregarGrafo(nomeArquivo);
+    std::string arquivo = "grafos/grafo150.txt";
+    auto grafo = carregarGrafo(arquivo);
+    std::vector<int> cliqueMaxima;
+    auto start = std::chrono::high_resolution_clock::now();
 
-    auto inicio = std::chrono::high_resolution_clock::now();
-    auto cliqueMaxima = encontrarCliqueMaxima(grafo);
-    auto fim = std::chrono::high_resolution_clock::now();
+    #pragma omp parallel
+    {
+        std::vector<int> cliqueLocal;
+        #pragma omp for
+        for (int i = 0; i < grafo.size(); ++i) {
+            auto clique = encontrarCliqueDoNo(i, grafo);
+            #pragma omp critical
+            {
+                if (clique.size() > cliqueMaxima.size()) {
+                    cliqueMaxima = clique;
+                }
+            }
+        }
+    }
 
-    double tempoExecucao = std::chrono::duration<double>(fim - inicio).count();
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> duracao = end - start;
 
     std::cout << "Clique máxima encontrada: ";
     for (int no : cliqueMaxima) std::cout << no << " ";
-    std::cout << "\nTamanho da clique máxima: " << cliqueMaxima.size() << std::endl;
-    std::cout << "Tempo total de execução: " << tempoExecucao << " segundos" << std::endl;
+    std::cout << "\nTamanho da clique máxima: " << cliqueMaxima.size() << "\n";
+    std::cout << "Tempo total de execução: " << duracao.count() << " segundos\n";
 
     return 0;
 }
