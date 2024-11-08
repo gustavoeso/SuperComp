@@ -1,0 +1,24 @@
+exercicio 2 - hibrido (openMP + MPI)
+Arquivo RNA salvo em: output/chr16.subst.rna.fa
+Arquivo RNA salvo em: output/chr15.subst.rna.fa
+Arquivo RNA salvo em: output/chr4.subst.rna.fa
+Arquivo RNA salvo em: output/chr13.subst.rna.fa
+Arquivo RNA salvo em: output/chr20.subst.rna.fa
+Arquivo RNA salvo em: output/chr14.subst.rna.fa
+Arquivo RNA salvo em: output/chr19.subst.rna.fa
+Arquivo RNA salvo em: output/chr3.subst.rna.fa
+Arquivo RNA salvo em: output/chr17.subst.rna.fa
+Arquivo RNA salvo em: output/chr8.subst.rna.fa
+Arquivo RNA salvo em: output/chr18.subst.rna.fa
+Arquivo RNA salvo em: output/chr1.subst.rna.fa
+Arquivo RNA salvo em: output/chr2.subst.rna.fa
+Arquivo RNA salvo em: output/chr21.subst.rna.fa
+Arquivo RNA salvo em: output/chr7.subst.rna.fa
+Arquivo RNA salvo em: output/chr22.subst.rna.fa
+Arquivo RNA salvo em: output/chr12.subst.rna.fa
+Arquivo RNA salvo em: output/chr5.subst.rna.fa
+Arquivo RNA salvo em: output/chr11.subst.rna.fa
+Arquivo RNA salvo em: output/chr6.subst.rna.fa
+Arquivo RNA salvo em: output/chr9.subst.rna.fa
+Tempo total de execução (Híbrido MPI + OpenMP): 34.4959 segundos
+Arquivo RNA salvo em: output/chr10.subst.rna.fa
