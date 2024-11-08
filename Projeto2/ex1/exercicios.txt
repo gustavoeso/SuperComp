@@ -1,0 +1,69 @@
+exercicio 1 - openMP
+Processando arquivo: "../database/chr1.subst.fa"
+Processando arquivo: "../database/chr2.subst.fa"
+Processando arquivo: "../database/chr3.subst.fa"
+Processando arquivo: "../database/chr4.subst.fa"
+Processando arquivo: "../database/chr5.subst.fa"
+Processando arquivo: "../database/chr6.subst.fa"
+Processando arquivo: "../database/chr7.subst.fa"
+Processando arquivo: "../database/chr8.subst.fa"
+Processando arquivo: "../database/chr9.subst.fa"
+Processando arquivo: "../database/chr10.subst.fa"
+Processando arquivo: "../database/chr11.subst.fa"
+Processando arquivo: "../database/chr12.subst.fa"
+Processando arquivo: "../database/chr13.subst.fa"
+Processando arquivo: "../database/chr14.subst.fa"
+Processando arquivo: "../database/chr15.subst.fa"
+Processando arquivo: "../database/chr16.subst.fa"
+Processando arquivo: "../database/chr17.subst.fa"
+Processando arquivo: "../database/chr18.subst.fa"
+Processando arquivo: "../database/chr19.subst.fa"
+Processando arquivo: "../database/chr20.subst.fa"
+Processando arquivo: "../database/chr21.subst.fa"
+Processando arquivo: "../database/chr22.subst.fa"
+Total de bases A: 763517118
+Total de bases T: 764606176
+Total de bases C: 511685713
+Total de bases G: 511971484
+Tempo total de execução (OpenMP): 9.65299 segundos
+ 
+exercicio 1 - MPI
+Processo 3 processando arquivos de índice 17 a 21
+Processo 3 processando arquivo: ../database/chr5.subst.fa
+Processo 0 processando arquivos de índice 0 a 5
+Processo 0 processando arquivo: ../database/chr1.subst.fa
+Processo 2 processando arquivos de índice 12 a 16
+Processo 2 processando arquivo: ../database/chr20.subst.fa
+Processo 1 processando arquivos de índice 6 a 11
+Processo 1 processando arquivo: ../database/chr15.subst.fa
+Processo 2 processando arquivo: ../database/chr21.subst.fa
+Processo 1 processando arquivo: ../database/chr16.subst.fa
+Processo 2 processando arquivo: ../database/chr22.subst.fa
+Processo 2 processando arquivo: ../database/chr3.subst.fa
+Processo 3 processando arquivo: ../database/chr6.subst.fa
+Processo 1 processando arquivo: ../database/chr17.subst.fa
+Processo 0 processando arquivo: ../database/chr10.subst.fa
+Processo 1 processando arquivo: ../database/chr18.subst.fa
+Processo 3 processando arquivo: ../database/chr7.subst.fa
+Processo 0 processando arquivo: ../database/chr11.subst.fa
+Processo 1 processando arquivo: ../database/chr19.subst.fa
+Processo 2 processando arquivo: ../database/chr4.subst.fa
+Processo 1 processando arquivo: ../database/chr2.subst.fa
+Processo 0 processando arquivo: ../database/chr12.subst.fa
+Processo 3 processando arquivo: ../database/chr8.subst.fa
+Processo 0 processando arquivo: ../database/chr13.subst.fa
+Processo 3 processando arquivo: ../database/chr9.subst.fa
+Processo 0 processando arquivo: ../database/chr14.subst.fa
+Total de bases A: 763517118
+Total de bases T: 764606176
+Total de bases C: 511685713
+Total de bases G: 511971484
+Tempo total de execução (MPI): 11.1374 segundos
+ 
+exercicio 1 - hibrido (openMP + MPI)
+Total de bases A: 763517118
+Total de bases T: 764606176
+Total de bases C: 511685713
+Total de bases G: 511971484
+Tempo total de execução: 5.75119 segundos
+lta

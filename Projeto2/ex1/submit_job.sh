@@ -8,5 +8,11 @@
 #SBATCH --partition=espec
 
 
-echo "exercicio 1"
-./exercicio1
+echo "exercicio 1 - openMP"
+./exercicio1_openmp
+echo " "
+echo "exercicio 1 - MPI"
+mpirun -np 4 ./exercicio1_mpi
+echo " "
+echo "exercicio 1 - hibrido (openMP + MPI)"
+mpirun -np 4 ./ex1_hibrido
