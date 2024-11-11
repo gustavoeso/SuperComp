@@ -1,0 +1,209 @@
+exercicio 4
+Processo 2 processou ../ex2/output/chr15.subst.rna.fa e encontrou:
+  Stop: 239319
+  Cisteína: 409803
+  Valina: 586960
+  Metionina: 209363
+  Serina: 728894
+  Treonina: 968973
+  Prolina: 1041072
+  Glutamina: 957403
+Processo 0 processou ../ex2/output/chr16.subst.rna.fa e encontrou:
+  Metionina: 185515
+  Stop: 216031
+  Cisteína: 385710
+  Serina: 671629
+  Valina: 538868
+  Glutamina: 922354
+  Treonina: 902689
+  Prolina: 1079332
+Processo 3 processou ../ex2/output/chr14.subst.rna.fa e encontrou:
+  Stop: 257893
+  Metionina: 227185
+  Serina: 762357
+  Cisteína: 430147
+  Valina: 622690
+  Glutamina: 1008587
+  Prolina: 1039974
+  Treonina: 1028051
+Processo 1 processou ../ex2/output/chr13.subst.rna.fa e encontrou:
+  Stop: 301657
+  Cisteína: 488024
+  Metionina: 274811
+  Valina: 707258
+  Serina: 843943
+  Glutamina: 1057575
+  Treonina: 1129578
+  Prolina: 989037
+Processo 0 processou ../ex2/output/chr4.subst.rna.fa e encontrou:
+  Cisteína: 879246
+  Valina: 1291447
+  Metionina: 506177
+  Prolina: 1870964
+  Serina: 1547781
+  Treonina: 2172729
+  Glutamina: 2069113
+  Stop: 557190
+Processo 2 processou ../ex2/output/chr1.subst.rna.fa e encontrou:
+  Stop: 645895
+  Valina: 1561071
+  Serina: 1948221
+  Cisteína: 1079747
+  Metionina: 563082
+  Glutamina: 2620823
+  Prolina: 2786229
+  Treonina: 2633666
+Processo 1 processou ../ex2/output/chr3.subst.rna.fa e encontrou:
+  Cisteína: 938670
+  Metionina: 516854
+  Stop: 578708
+  Valina: 1366712
+  Serina: 1666496
+  Treonina: 2274009
+  Prolina: 2143850
+  Glutamina: 2201361
+Processo 0 processou ../ex2/output/chr20.subst.rna.fa e encontrou:
+  Metionina: 144917
+  Treonina: 690896
+  Valina: 416313
+  Glutamina: 709037
+  Serina: 520752
+  Stop: 167763
+  Prolina: 814801
+  Cisteína: 298313
+Processo 3 processou ../ex2/output/chr2.subst.rna.fa e encontrou:
+  Stop: 730362
+  Serina: 2126430
+  Cisteína: 1205428
+  Metionina: 649672
+  Valina: 1736462
+  Treonina: 2807254
+  Prolina: 2731537
+  Glutamina: 2707318
+Processo 1 processou ../ex2/output/chr19.subst.rna.fa e encontrou:
+  Stop: 120045
+  Valina: 323549
+  Metionina: 100012
+  Serina: 407403
+  Treonina: 627554
+  Cisteína: 226889
+  Glutamina: 677113
+  Prolina: 879816
+Processo 2 processou ../ex2/output/chr8.subst.rna.fa e encontrou:
+  Stop: 418045
+  Serina: 1216862
+  Metionina: 375047
+  Cisteína: 686687
+  Valina: 988038
+  Prolina: 1585625
+  Glutamina: 1611882
+  Treonina: 1661503
+Processo 0 processou ../ex2/output/chr18.subst.rna.fa e encontrou:
+  Valina: 564546
+  Glutamina: 843877
+  Prolina: 830084
+  Metionina: 212969
+  Stop: 238366
+  Serina: 684233
+  Treonina: 885621
+  Cisteína: 392260
+Processo 3 processou ../ex2/output/chr17.subst.rna.fa e encontrou:
+  Stop: 215302
+  Metionina: 181766
+  Prolina: 1153042
+  Glutamina: 939996
+  Serina: 698666
+  Valina: 550023
+  Cisteína: 386656
+  Treonina: 911980
+Processo 2 processou ../ex2/output/chr21.subst.rna.fa e encontrou:
+  Stop: 106930
+  Metionina: 95094
+  Cisteína: 179883
+  Valina: 257666
+  Serina: 310239
+  Treonina: 416162
+  Glutamina: 399403
+  Prolina: 410478
+Processo 0 processou ../ex2/output/chr22.subst.rna.fa e encontrou:
+  Stop: 93067
+  Metionina: 77845
+  Cisteína: 180047
+  Serina: 309403
+  Valina: 247313
+  Treonina: 413852
+  Prolina: 573630
+  Glutamina: 434977
+Processo 1 processou ../ex2/output/chr7.subst.rna.fa e encontrou:
+  Metionina: 404756
+  Cisteína: 756559
+  Glutamina: 1772359
+  Treonina: 1822362
+  Prolina: 1808260
+  Valina: 1091812
+  Serina: 1334618
+  Stop: 454023
+Processo 3 processou ../ex2/output/chr12.subst.rna.fa e encontrou:
+  Stop: 371504
+  Prolina: 1511238
+  Cisteína: 607602
+  Treonina: 1516854
+  Valina: 886146
+  Serina: 1093385
+  Metionina: 328787
+  Glutamina: 1492857
+Processo 2 processou ../ex2/output/chr6.subst.rna.fa e encontrou:
+  Stop: 509108
+  Treonina: 1966175
+  Cisteína: 824165
+  Prolina: 1832306
+  Metionina: 453305
+  Serina: 1462166
+  Valina: 1203581
+  Glutamina: 1887565
+Processo 0 processou ../ex2/output/chr9.subst.rna.fa e encontrou:
+  Valina: 837141
+  Metionina: 308741
+  Prolina: 1452090
+  Cisteína: 583430
+  Stop: 346262
+  Serina: 1031716
+  Glutamina: 1382187
+  Treonina: 1411808
+Processo 3 processou ../ex2/output/chr11.subst.rna.fa e encontrou:
+  Cisteína: 622719
+  Serina: 1122477
+  Metionina: 324806
+  Valina: 893392
+  Glutamina: 1507677
+  Stop: 370661
+  Prolina: 1592085
+  Treonina: 1512997
+Processo 1 processou ../ex2/output/chr5.subst.rna.fa e encontrou:
+  Prolina: 1937089
+  Treonina: 2076277
+  Serina: 1523163
+  Glutamina: 2001830
+  Metionina: 476366
+  Valina: 1256572
+  Cisteína: 863667
+  Stop: 532083
+Processo 1 processou ../ex2/output/chr10.subst.rna.fa e encontrou:
+  Stop: 395804
+  Treonina: 1552229
+  Metionina: 350297
+  Cisteína: 672314
+  Glutamina: 1524966
+  Serina: 1181885
+  Prolina: 1615047
+  Valina: 954909
+
+Total de aminoácidos encontrados em todos os arquivos:
+Valina: 18882469
+Cisteína: 13097966
+Stop: 7866018
+Metionina: 6967367
+Treonina: 31383219
+Glutamina: 30730260
+Serina: 23192719
+Prolina: 31677586
