@@ -1,0 +1,25 @@
+exercicio 3
+Processo 0 encontrou 556106 códons 'AUG' no arquivo: ../ex2/output/chr16.subst.rna.fa
+Processo 2 encontrou 627452 códons 'AUG' no arquivo: ../ex2/output/chr15.subst.rna.fa
+Processo 3 encontrou 682538 códons 'AUG' no arquivo: ../ex2/output/chr14.subst.rna.fa
+Processo 1 encontrou 823937 códons 'AUG' no arquivo: ../ex2/output/chr13.subst.rna.fa
+Processo 0 encontrou 2074595 códons 'AUG' no arquivo: ../ex2/output/chr4.subst.rna.fa
+Processo 0 encontrou 2509475 códons 'AUG' no arquivo: ../ex2/output/chr20.subst.rna.fa
+Processo 1 encontrou 2373849 códons 'AUG' no arquivo: ../ex2/output/chr3.subst.rna.fa
+Processo 2 encontrou 2318682 códons 'AUG' no arquivo: ../ex2/output/chr1.subst.rna.fa
+Processo 3 encontrou 2630081 códons 'AUG' no arquivo: ../ex2/output/chr2.subst.rna.fa
+Processo 1 encontrou 2673515 códons 'AUG' no arquivo: ../ex2/output/chr19.subst.rna.fa
+Processo 0 encontrou 3148866 códons 'AUG' no arquivo: ../ex2/output/chr18.subst.rna.fa
+Processo 3 encontrou 3176033 códons 'AUG' no arquivo: ../ex2/output/chr17.subst.rna.fa
+Processo 0 encontrou 3381504 códons 'AUG' no arquivo: ../ex2/output/chr22.subst.rna.fa
+Processo 2 encontrou 3441377 códons 'AUG' no arquivo: ../ex2/output/chr8.subst.rna.fa
+Processo 2 encontrou 3727641 códons 'AUG' no arquivo: ../ex2/output/chr21.subst.rna.fa
+Processo 1 encontrou 3886061 códons 'AUG' no arquivo: ../ex2/output/chr7.subst.rna.fa
+Processo 3 encontrou 4161277 códons 'AUG' no arquivo: ../ex2/output/chr12.subst.rna.fa
+Processo 0 encontrou 4305777 códons 'AUG' no arquivo: ../ex2/output/chr9.subst.rna.fa
+Processo 2 encontrou 5088472 códons 'AUG' no arquivo: ../ex2/output/chr6.subst.rna.fa
+Processo 3 encontrou 5133365 códons 'AUG' no arquivo: ../ex2/output/chr11.subst.rna.fa
+Processo 1 encontrou 5315665 códons 'AUG' no arquivo: ../ex2/output/chr5.subst.rna.fa
+Processo 1 encontrou 6367060 códons 'AUG' no arquivo: ../ex2/output/chr10.subst.rna.fa
+Total de proteínas inicializadas (códons 'AUG'): 20894674
+Tempo total de execução (Híbrido MPI + OpenMP): 35.5556 segundos
