@@ -1,0 +1,20 @@
+teste 1
+Soma total dos quadrados: 333338333350000
+ 
+teste 2
+Soma total dos quadrados: 333338333350000
+Tempo de execução: 0.0218167 segundos
+ 
+referencia
+Processo raiz inicializou o vetor com valores de 1 a 5.
+Processo 1 recebeu seu subvetor.
+Processo 2 recebeu seu subvetor.
+Processo 1 terminou cálculo com soma parcial = 9
+Processo 2 terminou cálculo com soma parcial = 16
+Processo 0 recebeu seu subvetor.
+Processo 0 terminou cálculo com soma parcial = 5
+Processo 3 recebeu seu subvetor.
+Processo 3 terminou cálculo com soma parcial = 25
+Soma total dos quadrados: 55
+Soma esperada: 55
+O resultado está CORRETO!
