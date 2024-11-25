@@ -1,0 +1,9 @@
+Tamanho da matriz: 500x500
+Tempo de execução: 0.154543 segundos.
+--------------------------------------
+Tamanho da matriz: 1000x1000
+Tempo de execução: 1.22053 segundos.
+--------------------------------------
+Tamanho da matriz: 1500x1500
+Tempo de execução: 4.1112 segundos.
+--------------------------------------

@@ -1,0 +1,8 @@
+500
+Time taken for matrix multiplication: 10.1723 seconds.
+
+1000
+Time taken for matrix multiplication: 34.5514 seconds.
+
+1500
+Time taken for matrix multiplication: 127.971 seconds.
