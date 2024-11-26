@@ -1,0 +1,4 @@
+Questao 3
+Mean: 50.5857
+Max: 100
+Time taken: 0.000330025 seconds
